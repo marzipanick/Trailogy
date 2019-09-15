@@ -39,6 +39,19 @@ progress {
 template {
   display: none;
 }
+
+.traildata {
+  border: 1px green solid;
+  margin: -15px 0 30px 0;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.trails {
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
